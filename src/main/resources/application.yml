@@ -6,5 +6,7 @@ spring:
       server:
         git:
           uri: https://juanpabloalvis@bitbucket.org/juanpabloalvis/configurations.git
-          default-label: master
           clone-on-start: true
+#          refresh-rate: 600
+#          delete-untracked-branches: true
+          default-label: master
